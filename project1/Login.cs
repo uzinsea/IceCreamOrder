@@ -19,7 +19,7 @@ namespace project1
         }
         SqlConnection sConn = new SqlConnection();
         SqlCommand sCmd = new SqlCommand();
-        string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\user\Documents\Icecream31.mdf;Integrated Security=True;Connect Timeout=30";
+        string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\PROJECT\ICECREAMORDER\ICECREAM31.MDF;Integrated Security=True;Connect Timeout=30";
 
 
 
