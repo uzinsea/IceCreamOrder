@@ -28,7 +28,6 @@ namespace project1
             sConn.Open();
             sCmd.Connection = sConn;
 
-            lbName.Text = "";
         }
 
         private void btnSignup_Click(object sender, EventArgs e)
@@ -48,6 +47,7 @@ namespace project1
         {
             Login frm = new Login();
             frm.Show();
+            this.Hide();
 
         }
         private void btnOrder_Click(object sender, EventArgs e)

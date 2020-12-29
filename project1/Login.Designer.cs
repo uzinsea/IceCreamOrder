@@ -79,7 +79,6 @@
             this.tbID.Name = "tbID";
             this.tbID.Size = new System.Drawing.Size(88, 21);
             this.tbID.TabIndex = 1;
-            this.tbID.TextChanged += new System.EventHandler(this.tbID_TextChanged);
             // 
             // tbPwd
             // 
@@ -90,7 +89,6 @@
             this.tbPwd.PasswordChar = '*';
             this.tbPwd.Size = new System.Drawing.Size(88, 21);
             this.tbPwd.TabIndex = 2;
-            this.tbPwd.TextChanged += new System.EventHandler(this.tbPwd_TextChanged);
             // 
             // btnLogin
             // 
@@ -132,7 +130,7 @@
             this.btnBack.TabIndex = 12;
             this.btnBack.Text = "BACK";
             this.btnBack.UseVisualStyleBackColor = false;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click_1);
             // 
             // Login
             // 

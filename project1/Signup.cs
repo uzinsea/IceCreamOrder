@@ -28,6 +28,7 @@ namespace project1
             sCmd.Connection = sConn;
 
         }
+        
         private void btnSignup_Click(object sender, EventArgs e)
         {
             try
@@ -48,7 +49,7 @@ namespace project1
             }
             catch (Exception e1)
             {
-                lbNotice.Text = "빈칸없이 입력해주십시오";
+                lbNotice.Text = "이미 존재하는 ID입니다";
             }
 
 

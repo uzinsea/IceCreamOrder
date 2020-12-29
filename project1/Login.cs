@@ -67,9 +67,15 @@ namespace project1
 
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
+        
+
+        private void btnBack_Click_1(object sender, EventArgs e)
         {
-            Close();
+            Home frm = new Home();
+            frm.Show();
+            this.Hide();
+
+
         }
     }
 }
